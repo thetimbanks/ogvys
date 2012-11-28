@@ -1,0 +1,14 @@
+.wins {
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+.wins span {
+	font-size: 25px;
+}
+
+.rankings h3 {
+	text-align: center;
+	font-size: 35px;
+}

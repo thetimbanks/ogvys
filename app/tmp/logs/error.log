@@ -1,0 +1,145 @@
+2012-11-20 20:33:59 Error: [MissingControllerException] Controller class ExamplesController could not be found.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-20 20:34:23 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Example/index.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-20 20:36:13 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Example/index.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ExampleController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 20:08:00 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Scores/callback.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ScoresController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 20:08:46 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Scores/callback.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ScoresController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 20:28:12 Error: [XmlException] Invalid input.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Utility/Xml.php(94): Xml::fromArray(Array, Array)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/app/Controller/TeamsController.php(29): Xml::build(Object(HttpResponse))
+#2 [internal function]: TeamsController->callback()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(TeamsController), Array)
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#5 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#6 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2012-11-25 21:21:32 Error: [MissingActionException] Action TeamsController::udpateScores() could not be found.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-25 21:22:14 Error: [MissingActionException] Action TeamsController::udpateScores() could not be found.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-25 21:22:36 Error: [MissingActionException] Action TeamsController::udpateScores() could not be found.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-25 21:22:45 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:23:20 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:25:38 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:25:50 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:26:06 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:26:18 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:29:55 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/update_scores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-25 21:57:45 Error: [MissingActionException] Action SchedulesController::updateShedules() could not be found.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-25 21:57:54 Error: [MissingActionException] Action SchedulesController::updateShedule() could not be found.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-25 21:58:12 Error: [MissingTableException] Table schedules for model Schedule was not found in datasource default.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Model.php(3443): Model->setSource('schedules')
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Model.php(2698): Model->getDataSource()
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/app/Controller/SchedulesController.php(11): Model->find('all')
+#3 [internal function]: SchedulesController->updateSchedule()
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#5 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-27 12:44:44 Error: [MissingViewException] View file "/Users/timbanks/Documents/Projects/FantasyFootball/app/View/Teams/updatescores.ctp" is missing.
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/View/View.php(462): View->_getViewFileName(NULL)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(959): View->render(NULL, NULL)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(110): Controller->render()
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(TeamsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-27 12:49:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'table' at line 1
+#0 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Datasource/DboSource.php(437): PDOStatement->execute(Array)
+#1 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Datasource/DboSource.php(403): DboSource->_execute('TRUNCATE TABLE ...', Array)
+#2 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Datasource/DboSource.php(647): DboSource->execute('TRUNCATE TABLE ...', Array, Array)
+#3 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Datasource/DboSource.php(516): DboSource->fetchAll('TRUNCATE TABLE ...')
+#4 [internal function]: DboSource->query('TRUNCATE TABLE ...')
+#5 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Model/Model.php(3055): call_user_func_array(Array, Array)
+#6 /Users/timbanks/Documents/Projects/FantasyFootball/app/Controller/ScoresController.php(27): Model->query('TRUNCATE TABLE ...')
+#7 [internal function]: ScoresController->callback()
+#8 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ScoresController), Array)
+#9 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/timbanks/Documents/Projects/FantasyFootball/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(ScoresController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/timbanks/Documents/Projects/FantasyFootball/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
