@@ -80,9 +80,23 @@
 	        <div class="links">
 	        </div>
 	        Made by <a target="_blank" href="http://www.thetimbanks.com">Tim Banks</a>. Contact him <a href="mailto:thetimbanks@gmail.com">thetimbanks@gmail.com</a>.<br>
-	        Hosted on <a target="_blank" href="http://www.github.com/">GitHub</a>.
+	        Hosted on <a target="_blank" href="https://github.com/thetimbanks/ogvys">GitHub</a>.
       </footer>
 	</div>
 	<?php //echo $this->element('sql_dump'); ?>
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36541885-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
 </body>
 </html>
