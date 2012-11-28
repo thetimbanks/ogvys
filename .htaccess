@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c>
    RewriteEngine on
    
-   RewriteCond %{http_HOST} ^ogvys\.com$ [NC] 
+   RewriteCond %{HTTP_HOST} ^ogvys\.com$ [NC] 
    RewriteRule ^(.*)$ http://www.oldguysvsyoungstuds.com/$1 [R=301,L] 
    
    RewriteRule    ^$ app/webroot/    [L]
